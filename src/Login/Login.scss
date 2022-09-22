@@ -1,0 +1,134 @@
+.Login {
+    color: aqua;
+    background-color: #000022;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Container {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Container-Logo {
+    width: 30%;
+    height: 100%;
+    background-color: #0460AB;
+    border-radius: 19% 81% 0% 100% / 100% 0% 100% 0%;
+}
+
+.Login-Container-Form {
+    width: 70%;
+    height: 100%;
+    background-color: rgba(42, 60, 80, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Container-Form-Container {
+    width: 90%;
+    height: 90%;
+}
+
+
+
+.Login-Container-Form-Container-Title {
+    width: 100%;
+    height: 15%;
+}
+
+.Login-Container-Form-Container-User {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    input {
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+        text-align: start;
+        width: 95%;
+        background: none;
+        font-style: none;
+        margin-bottom: 5px;
+        padding-top: 30px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        height: 100%;
+        border: 0px;
+        color: #ffffff;
+        border-bottom: 2px solid #7F7F81;
+    }
+
+    input:focus {
+        border: 0px;
+        outline: none;
+        border-style: none;
+        border-bottom: 2px solid rgb(43, 43, 43);
+
+    }
+}
+
+.Login-Container-Form-Container-Login-In {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Container-Form-Container-Login-In-Container {
+    width: 100%;
+    height: 80%;
+
+    button {
+        width: 95%;
+        height: 50%;
+        font-family: 'Source Sans Pro', sans-serif;
+        background: none;
+        border: 1px solid rgb(78, 172, 172);
+        color: #ffffff;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        border: 1px solid rgb(190, 255, 255);
+
+    }
+
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #7F7F81;
+        cursor: pointer;
+    }
+
+    p:hover {
+        color: #c0c0c4;
+
+    }
+}
+
+.Login-Container-Form-Container-Title-Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+        color: antiquewhite;
+    }
+}
